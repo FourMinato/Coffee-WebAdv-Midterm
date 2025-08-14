@@ -2,4 +2,4 @@ services:
   - type: web
     name: coffee-webadv-midterm
     env: static
-    staticPublishPath: dist/angular-movies
+    staticPublishPath: dist/angular-coffee
