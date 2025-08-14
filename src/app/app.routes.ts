@@ -9,7 +9,6 @@ import { Type } from './type/type';
 export const routes: Routes = [
 
     { path: '', component: Login },
-    { path: 'login', component: Login },
     { path: 'type', component: Type },
     { path: 'list/cool', component: Cool },
     { path: 'list/hot', component: Hot },

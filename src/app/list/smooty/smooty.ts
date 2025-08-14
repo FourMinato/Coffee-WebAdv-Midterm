@@ -29,7 +29,7 @@ export class Smooty implements OnInit {
 
   logout() {
     localStorage.removeItem('currentUser');
-    this.router.navigate(['/login'], { replaceUrl: true });
+    window.location.replace('/');
   }
 
   addToCart(coffee: Coffee) {
