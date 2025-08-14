@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { MatIcon } from '@angular/material/icon';
 import { Router } from '@angular/router';
-import { Location } from '@angular/common'; 
+import { Location } from '@angular/common';
 import { Coffee } from '../../services/coffee.service';
 import coffeeData from '../../../assets/data.json'; // ดึงข้อมูล JSON ตรง ๆ
 
@@ -12,7 +12,7 @@ import coffeeData from '../../../assets/data.json'; // ดึงข้อมู�
   templateUrl: './smooty.html',
   styleUrl: './smooty.scss'
 })
-export class Smooty implements OnInit{
+export class Smooty implements OnInit {
 
   SmootyCoffee: any[] = [];
 
@@ -29,9 +29,7 @@ export class Smooty implements OnInit{
 
   logout() {
     localStorage.removeItem('currentUser');
-
-    // ล้าง History แล้วนำไปหน้า login
-    window.location.replace('/login');
+    this.router.navigate(['/login'], { replaceUrl: true });
   }
 
   addToCart(coffee: Coffee) {

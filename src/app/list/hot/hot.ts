@@ -33,9 +33,7 @@ export class Hot implements OnInit {
 
   logout() {
     localStorage.removeItem('currentUser');
-
-    // ล้าง History แล้วนำไปหน้า login
-    window.location.replace('/login');
+    this.router.navigate(['/login'], { replaceUrl: true });
   }
 
   addToCart(coffee: Coffee) {

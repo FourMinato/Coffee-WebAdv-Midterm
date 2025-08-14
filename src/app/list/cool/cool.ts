@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatIcon } from '@angular/material/icon';
 import { Router } from '@angular/router';
-import { CommonModule, Location} from '@angular/common'; 
+import { CommonModule, Location } from '@angular/common';
 import { Coffee } from '../../services/coffee.service';
 import coffeeData from '../../../assets/data.json'; // ดึงข้อมูล JSON ตรง ๆ
 
@@ -11,7 +11,7 @@ import coffeeData from '../../../assets/data.json'; // ดึงข้อมู�
   templateUrl: './cool.html',
   styleUrl: './cool.scss'
 })
-export class Cool implements OnInit{
+export class Cool implements OnInit {
 
   CoolCoffee: any[] = [];
 
@@ -28,9 +28,7 @@ export class Cool implements OnInit{
 
   logout() {
     localStorage.removeItem('currentUser');
-
-    // ล้าง History แล้วนำไปหน้า login
-    window.location.replace('/login');
+    this.router.navigate(['/login'], { replaceUrl: true });
   }
 
   addToCart(coffee: Coffee) {
