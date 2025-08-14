@@ -28,7 +28,7 @@ export class Cool implements OnInit {
 
 logout() {
   localStorage.removeItem('currentUser');
-  window.location.replace('/login');
+  window.location.replace('/');
 }
 
   addToCart(coffee: Coffee) {

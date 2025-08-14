@@ -23,6 +23,6 @@ export class Type {
   }
 logout() {
   localStorage.removeItem('currentUser');
-  window.location.replace('/login');
+  window.location.replace('/');
 }
 }
