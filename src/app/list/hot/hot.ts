@@ -33,7 +33,7 @@ export class Hot implements OnInit {
 
 logout() {
   localStorage.removeItem('currentUser');
-  window.location.replace('/');
+  window.location.replace('/login');
 }
 
   addToCart(coffee: Coffee) {

@@ -7,13 +7,10 @@ import { Type } from './type/type';
 
 
 export const routes: Routes = [
-
     { path: '', component: Login },
+    { path: 'login', component: Login }, // เพิ่มบรรทัดนี้
     { path: 'type', component: Type },
     { path: 'list/cool', component: Cool },
     { path: 'list/hot', component: Hot },
     { path: 'list/smooty', component: Smooty }
-
-
-
 ];

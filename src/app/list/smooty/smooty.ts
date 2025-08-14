@@ -27,10 +27,10 @@ export class Smooty implements OnInit {
     this.location.back();
   }
 
-  logout() {
-    localStorage.removeItem('currentUser');
-    window.location.replace('/');
-  }
+logout() {
+  localStorage.removeItem('currentUser');
+  window.location.replace('/login');
+}
 
   addToCart(coffee: Coffee) {
     console.log('เพิ่มลงตะกร้า:', coffee);
