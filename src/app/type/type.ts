@@ -22,10 +22,8 @@ export class Type {
     this.router.navigate(['list/smooty']);
   }
 
-  logout() {
-    localStorage.removeItem('currentUser');
-
-    // ล้าง History แล้วนำไปหน้า login
-    window.location.replace('/login');
-  }
+logout() {
+  localStorage.removeItem('currentUser');
+  this.router.navigate(['/login'], { replaceUrl: true});
+}
 }
