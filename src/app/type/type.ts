@@ -21,9 +21,8 @@ export class Type {
   smooty() {
     this.router.navigate(['list/smooty']);
   }
-
-  logout() {
-    localStorage.removeItem('currentUser');
-    window.location.replace('/');
-  }
+logout() {
+  localStorage.removeItem('currentUser');
+  window.location.replace('/login');
+}
 }
