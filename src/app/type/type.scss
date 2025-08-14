@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap");
+
+.logo-container {
+  gap: 20px;
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  display: flex;
+  align-items: center; /* จัดให้ข้อความอยู่กึ่งกลางกับโลโก้ */
+  gap: 15px; /* ระยะห่างระหว่างโลโก้กับข้อความ */
+  z-index: 9999;
+}
+
+.logo-img {
+  width: 150px;
+  height: auto;
+}
+
+.logo-text {
+  padding-left: 30px; /* ขยับข้อความออกจากโลโก้ */
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo-text p {
+  margin: 30px;
+  font-size: 30px;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home-page {
+  height: 100vh;
+  background: url("/assets/Images/bg.jpeg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+  height: 350px;
+}
+
+.logout-btn {
+  position: absolute;
+  height: 35px;
+  top: 110px;
+  right: 230px;
+  z-index: 5;
+  background-color: #d97706;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0 16px; /* ปรับ padding ให้พอดี */
+  font-size: 14px;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  display: flex;
+  align-items: center; /* จัดแนวตั้งตรงกลาง */
+  justify-content: center; /* จัดแนวนอนตรงกลาง */
+  gap: 4px; /* ระยะห่างระหว่าง icon กับข้อความ */
+}
+
+.Products-Coffee {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center; /* จัดรูปและปุ่มให้อยู่กลาง */
+}
+
+.products-img {
+  max-width: 100%;
+  height: auto;
+}
+.menu-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* ระยะห่างระหว่างปุ่ม */
+  margin-top: 20px;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center; /* จัดแนวกลางระหว่างไอคอนกับข้อความ */
+  gap: 10px; /* ระยะห่างระหว่างไอคอนกับชื่อ */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Sriracha", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  padding: 8px 12px;
+}
+
+.menu-btn img {
+  width: 25px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.menu-btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}

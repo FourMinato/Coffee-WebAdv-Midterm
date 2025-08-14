@@ -1,0 +1,271 @@
+{
+  "Users":[
+    {
+      "UserNo": 1,
+      "Email": "admin1@gmail.com",
+      "Password": "1234",
+      "Role": "Admin"
+    },
+    {
+      "UserNo": 2,
+      "Email": "admin2@gmail.com",
+      "Password": "test",
+      "Role": "Admin"
+    }
+  ],
+  "Coffee": [
+    {
+      "ProductNo": 1,
+      "ProductName": "เอสเปรสโซ่",
+      "TypeProduct": {
+        "TypeNo": 1,
+        "TypeName": "ร้อน",
+        "Image": "icon_hot.png"
+      },
+      "Description": "หัวกาแฟรสชาติเข้มข้น เสิร์ฟด้วยแก้วขนาดเล็ก 3.5 ออนซ์",
+      "Image": "เอสเปรสโซ่.png"
+    },
+    {
+      "ProductNo": 2,
+      "ProductName": "เอสเปรสโซ่",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟเย็น ผสมนม รสชาติเข้มข้น",
+      "Image": "เอสเปรสโซ่.png"
+    },
+    {
+      "ProductNo": 3,
+      "ProductName": "เอสเปรสโซ่",
+      "TypeProduct": {
+        "TypeNo": 3,
+        "TypeName": "ปั่น",
+        "Image": "icon_smooty.png"
+      },
+      "Description": "กาแฟปั่น รสชาติเข้มข้น ได้รสชาติกาแฟแท้",
+      "Image": "เอสเปรสโซ่.png"
+    },
+    {
+      "ProductNo": 4,
+      "ProductName": "อเมซอน",
+      "TypeProduct": {
+        "TypeNo": 3,
+        "TypeName": "ปั่น",
+        "Image": "icon_smooty.png"
+      },
+      "Description": "กาแฟปั่นสูตรพิเศษ รสชาติเข้มข้น หวานมัน กลมกล่อม",
+      "Image": "อเมซอน.png"
+    },
+    {
+      "ProductNo": 5,
+      "ProductName": "อเมซอน",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟเย็น รสชาติเข้มข้น หวานมัน กลมกล่อม ในสไตล์ Café Amazon",
+      "Image": "อเมซอน.png"
+    },
+    {
+      "ProductNo": 6,
+      "ProductName": "อเมซอน",
+      "TypeProduct": {
+        "TypeNo": 1,
+        "TypeName": "ร้อน",
+        "Image": "icon_hot.png"
+      },
+      "Description": "กาแฟดำรสชาติเข้มข้น",
+      "Image": "อเมซอน.png"
+    },
+    {
+      "ProductNo": 7,
+      "ProductName": "อเมซอน เอ็กซ์ตร้า",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟเย็นเข้มด้วยรสเอสเพรสโซ 2 เท่า",
+      "Image": "อเมซอน เอ็กซ์ตร้า.png"
+    },
+    {
+      "ProductNo": 8,
+      "ProductName": "แบล็คคอฟฟี่",
+      "TypeProduct": {
+        "TypeNo": 1,
+        "TypeName": "ร้อน",
+        "Image": "icon_hot.png"
+      },
+      "Description": "กาแฟร้อนดำรสเข้มปานกลาง",
+      "Image": "แบล็คคอฟฟี่.png"
+    },
+    {
+      "ProductNo": 9,
+      "ProductName": "แบล็คคอฟฟี่",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟดำเย็น  หอม  หวาน  ได้รสกาแฟแท้",
+      "Image": "แบล็คคอฟฟี่.png"
+    },
+    {
+      "ProductNo": 10,
+      "ProductName": "แบล็คคอฟฟี่น้ำผึ้ง",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟดำเย็น ผสมน้ำผึ้งธรรมชาติ รสหวานละมุน",
+      "Image": "แบล็คคอฟฟี่น้ำผึ้ง.png"
+    },
+    {
+      "ProductNo": 11,
+      "ProductName": "แบล็คคอฟฟี่น้ำผึ้งมะนาว",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "ความหอมหวานของน้ำผึ้งผสมกับความเปรี้ยวของมะนาวราดด้วยกาแฟ อร่อยเย็นสดชื่นไม่ซ้ำใคร",
+      "Image": "แบล็คคอฟฟี่น้ำผึ้งมะนาว.png"
+    },
+    {
+      "ProductNo": 12,
+      "ProductName": "คาปูชิโน",
+      "TypeProduct": {
+        "TypeNo": 1,
+        "TypeName": "ร้อน",
+        "Image": "icon_hot.png"
+      },
+      "Description": "หัวกาแฟเข้มข้น ผสมนมสดร้อนครึ่งแก้ว ราดด้วยโฟมนมด้านบน รสชาติเข้มข้น",
+      "Image": "คาปูชิโน.png"
+    },
+    {
+      "ProductNo": 13,
+      "ProductName": "คาปูชิโน",
+      "TypeProduct": {
+        "TypeNo": 3,
+        "TypeName": "ปั่น",
+        "Image": "icon_smooty.png"
+      },
+      "Description": "กาแฟปั่น รสชาติกลมกล่อม หวานมัน แต่งหน้าด้วยโฟมนม",
+      "Image": "คาปูชิโน.png"
+    },
+    {
+      "ProductNo": 14,
+      "ProductName": "คาปูชิโน",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟเย็น รสชาติปานกลาง  แต่งหน้าด้วยโฟมนม",
+      "Image": "คาปูชิโน.png"
+    },
+    {
+      "ProductNo": 15,
+      "ProductName": "ลาเต้อเมซอน",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟเย็น รสชาติอ่อนนุ่ม ผสานความละมุนจากนมสด",
+      "Image": "ลาเต้อเมซอน.png"
+    },
+    {
+      "ProductNo": 16,
+      "ProductName": "ลาเต้อเมซอน",
+      "TypeProduct": {
+        "TypeNo": 3,
+        "TypeName": "ปั่น",
+        "Image": "icon_smooty.png"
+      },
+      "Description": "กาแฟปั่น รสชาติอ่อนนุ่ม ผสานความละมุนจากนมสด",
+      "Image": "ลาเต้อเมซอน.png"
+    },
+    {
+      "ProductNo": 17,
+      "ProductName": "ลาเต้อเมซอน",
+      "TypeProduct": {
+        "TypeNo": 1,
+        "TypeName": "ร้อน",
+        "Image": "icon_hot.png"
+      },
+      "Description": "หัวกาแฟเข้มข้น ผสมนมสดร้อน ราดด้วยโฟมนมด้านบน รสชาติกลมกล่อม",
+      "Image": "ลาเต้อเมซอน.png"
+    },
+    {
+      "ProductNo": 18,
+      "ProductName": "มอคค่า",
+      "TypeProduct": {
+        "TypeNo": 3,
+        "TypeName": "ปั่น",
+        "Image": "icon_smooty.png"
+      },
+      "Description": "กาแฟปั่น รสชาติปานกลาง ผสมช็อกโกแลตเข้มข้น",
+      "Image": "มอคค่า.png"
+    },
+    {
+      "ProductNo": 19,
+      "ProductName": "มอคค่า",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟเย็น รสชาติปานกลาง ผสมช็อกโกแลต แต่งหน้าด้วยโฟมนม",
+      "Image": "มอคค่า.png"
+    },
+    {
+      "ProductNo": 20,
+      "ProductName": "มอคค่า",
+      "TypeProduct": {
+        "TypeNo": 1,
+        "TypeName": "ร้อน",
+        "Image": "icon_hot.png"
+      },
+      "Description": "หัวกาแฟเข้มข้น ผสมช็อกโกแลตและนมสดร้อน ราดด้วยโฟมนมด้านบน รสชาติกลมกล่อม หอมกลิ่นช็อกโกแลต",
+      "Image": "มอคค่า.png"
+    },
+    {
+      "ProductNo": 21,
+      "ProductName": "ไวท์ ช็อก มัคคิอาโต้",
+      "TypeProduct": {
+        "TypeNo": 1,
+        "TypeName": "ร้อน",
+        "Image": "icon_hot.png"
+      },
+      "Description": "กาแฟร้อน หวานละมุน หอมนุ่มกลิ่นไวท์ช็อกโกแลต",
+      "Image": "ไวท์ ช็อก มัคคิอาโต้.png"
+    },
+    {
+      "ProductNo": 22,
+      "ProductName": "ไวท์ ช็อก มัคคิอาโต้",
+      "TypeProduct": {
+        "TypeNo": 2,
+        "TypeName": "เย็น",
+        "Image": "icon_cool.png"
+      },
+      "Description": "กาแฟเย็น หวานละมุน หอมนุ่มกลิ่นไวท์ช็อกโกแลต",
+      "Image": "ไวท์ ช็อก มัคคิอาโต้.png"
+    },
+    {
+      "ProductNo": 23,
+      "ProductName": "ไวท์ ช็อก มัคคิอาโต้",
+      "TypeProduct": {
+        "TypeNo": 3,
+        "TypeName": "ปั่น",
+        "Image": "icon_smooty.png"
+      },
+      "Description": "กาแฟปั่น หวานละมุน หอมนุ่มกลิ่นไวท์ช็อกโกแลต",
+      "Image": "ไวท์ ช็อก มัคคิอาโต้.png"
+    }
+  ]
+}

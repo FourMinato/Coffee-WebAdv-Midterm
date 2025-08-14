@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap");
+
+.logo-container {
+  gap: 20px;
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  display: flex;
+  align-items: center; /* จัดให้ข้อความอยู่กึ่งกลางกับโลโก้ */
+  gap: 15px; /* ระยะห่างระหว่างโลโก้กับข้อความ */
+  z-index: 9999;
+}
+
+.logo-img {
+  width: 150px;
+  height: auto;
+}
+
+.logo-text {
+  padding-left: 30px; /* ขยับข้อความออกจากโลโก้ */
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo-text p {
+  margin: 30px;
+  font-size: 30px;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home-page {
+  height: 100vh;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.bg-img {
+  background: url("/assets/Images/bg.jpeg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: fixed;
+}
+
+.banner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+  height: 350px;
+}
+
+.logout-btn {
+  position: absolute;
+  height: 35px;
+  top: 110px;
+  right: 230px;
+  z-index: 5;
+  background-color: #d97706;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 250px;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  font-size: 16px;
+}
+
+.menu-title1 {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  color: rgb(0, 85, 0);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  display: inline-block; /* ให้ขนาด clickable ตรงกับเนื้อหา */
+  line-height: 1.4; /* ปรับความสูงบรรทัดให้ครอบข้อความ */
+  padding: 0 10px; /* padding ซ้ายขวาเท่านั้น ป้องกัน bug hitbox */
+}
+
+.menu-title2 {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+.coffee-container {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px; /* เพิ่มความกว้างของ container เพื่อให้มีพื้นที่มากขึ้น */
+  z-index: 10;
+}
+
+.coffee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* แก้ไข: ใช้ Flexbox เพื่อให้รูปและรายละเอียดอยู่ข้างกัน */
+.coffee-item {
+  display: flex;
+  align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+  gap: 20px; /* เพิ่มระยะห่างระหว่างรูปภาพกับรายละเอียด */
+}
+
+.coffee-image {
+  width: 250px; /* ปรับขนาดรูปภาพให้เท่ากับภาพตัวอย่าง */
+  height: auto;
+  object-fit: cover;
+}
+
+.coffee-details {
+  text-align: left;
+  flex: 1;
+  display: flex;               /* ใช้ flexbox */
+  flex-direction: column;      /* เรียงแนวตั้ง */
+  justify-content: space-between; /* ดันให้เนื้อหาอยู่ด้านบน ปุ่มอยู่ด้านล่าง */
+  min-height: 100px;           /* กันไม่ให้บีบจนปุ่มทับข้อความ */
+}
+
+.coffee-name {
+  font-size: 25px;
+  font-family: "Sriracha", cursive;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.coffee-description {
+  font-size: 18px;
+  font-family: "Sriracha", cursive;
+  font-weight: 500;
+  color: #2d5016;
+  margin: 0;
+  line-height: 2;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
+}
+
+.loading {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 18px;
+  color: #2d5016;
+  font-family: "Sriracha", cursive;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.products-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cart-btn {
+  align-self: flex-end;        /* ให้ปุ่มไปอยู่ขวาล่าง */
+  margin-top: 10px;
+  background-color: #d97706;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cart-btn mat-icon {
+  font-size: 24px;
+}

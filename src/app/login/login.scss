@@ -1,0 +1,116 @@
+/* พื้นหลังไม้เต็มจอ */
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap");
+
+.login-page {
+  height: 100vh;
+  background: url("/assets/Images/bg.jpeg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+  height: 350px;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 3;
+  margin-top: 155px;
+}
+
+.login-box h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* โลโก้ */
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #d97706;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center; /* จัดแนวตั้งตรงกลาง */
+  justify-content: center; /* จัดแนวนอนตรงกลาง */
+  gap: 4px; /* ระยะห่างระหว่าง icon กับข้อความ */
+}
+
+.login-box button:hover {
+  background-color: #b45309;
+}
+
+.login-box button:active {
+  transform: scale(0.98);
+}
+
+.footer {
+  font-size: 12px;
+  margin-top: 5px;
+  color: black;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ข้อความ input */
+.no-bg input.mat-mdc-input-element {
+  color: black !important;
+  background: transparent !important;
+}
+
+.full-width {
+  width: 100%;
+}
+.mat-mdc-floating-label,
+mat-label {
+  font-family: "Sriracha", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(87, 87, 87);
+}
+.mat-mdc-input-element {
+  font-family: "Sriracha", cursive !important;
+  font-size: 20px;
+}

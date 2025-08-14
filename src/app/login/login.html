@@ -1,0 +1,37 @@
+<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&family=Ojuju:wght@200..800&family=Prompt:ital@1&family=Protest+Riot&family=Sriracha&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <div class="login-page">
+
+    <div class="banner">
+      <img src="/assets/Images/banner.png" alt="Banner" />
+    </div>
+
+    <!-- กล่องล็อกอิน -->
+    <div class="login-box">
+      <img src="/assets/Images/logo.png" alt="Logo" class="logo" />
+      <h2>ระบบพนักงาน</h2>
+
+      <mat-form-field appearance="outline" class="no-bg full-width">
+        <mat-label>อีเมล์</mat-label>
+        <input matInput type="text" [(ngModel)]="email">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="no-bg full-width">
+        <mat-label>รหัสผ่าน</mat-label>
+        <input matInput type="password" [(ngModel)]="password">
+      </mat-form-field>
+
+      <button mat-raised-button color="warn" class="full-width login-btn" (click)="login()">
+        <mat-icon>login</mat-icon> เข้าสู่ระบบ
+      </button>
+
+      <div class="footer">
+        Copyright © 2024 Aj.M CS-MSU.
+      </div>
+    </div>
+  </div>
+</body>

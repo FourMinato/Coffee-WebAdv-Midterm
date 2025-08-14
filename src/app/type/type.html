@@ -1,0 +1,48 @@
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&family=Ojuju:wght@200..800&family=Prompt:ital@1&family=Protest+Riot&family=Sriracha&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <div class="home-page">
+        <div class="banner">
+            <img src="/assets/Images/banner.png" alt="Banner" />
+        </div>
+
+        <div class="logo-container">
+            <img src="/assets/Images/logo.png" alt="Logo" class="logo-img" />
+            <div class="logo-text">
+                <h1>Café Amazon @ CS-MSU</h1>
+                <p>โทนนี่ สตาร์ก (ผู้จัดการ)</p>
+            </div>
+        </div>
+
+        <div class="Products-Coffee">
+            <img src="/assets/Images/products-coffee.png" alt="Products Coffee" class="products-img">
+
+            <div class="menu-buttons">
+                <button class="menu-btn" (click)="hot()">
+                    <img src="/assets/Images/icon_hot.png" alt="เมนูร้อน">
+                    <span>เมนูร้อน</span>
+                </button>
+                <button class="menu-btn" (click)="cool()">
+                    <img src="/assets/Images/icon_cool.png" alt="เมนูเย็น">
+                    <span>เมนูเย็น</span>
+                </button>
+                <button class="menu-btn" (click)="smooty()">
+                    <img src="/assets/Images/icon_smooty.png" alt="เมนูปั่น">
+                    <span>เมนูปั่น</span>
+                </button>
+            </div>
+            
+        </div>
+
+
+
+        <!-- ปุ่มออกจากระบบ -->
+        <button mat-raised-button color="warn" class="logout-btn" (click)="logout()">
+            <mat-icon>logout</mat-icon> ออกจากระบบ
+        </button>
+    </div>
+</body>

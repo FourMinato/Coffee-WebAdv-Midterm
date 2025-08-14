@@ -1,0 +1,90 @@
+[
+  {
+    "idx": "1",
+    "name": "Anthony Mackie",
+    "movie": "Captain America: Brave New World",
+    "image": "https://example.com/anthony-mackie.jpg",
+    "trailer": "https://www.youtube.com/watch?v=anthony-mackie-trailer",
+    "description": "รับบท Sam Wilson/Captain America ผู้นำทางด้านอารมณ์ และกลายเป็น Captain America คนล่าสุด."
+  },
+  {
+    "idx": "2",
+    "name": "Harrison Ford",
+    "movie": "Captain America: Brave New World",
+    "image": "https://example.com/harrison-ford.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ross-trailer",
+    "description": "รับบท Thaddeus 'Thunderbolt' Ross / Red Hulk เป็นประธานาธิบดีผู้นำและตัวร้ายสำคัญ."
+  },
+  {
+    "idx": "3",
+    "name": "Danny Ramirez",
+    "movie": "Captain America: Brave New World",
+    "image": "https://example.com/danny-ramirez.jpg",
+    "trailer": "https://www.youtube.com/watch?v=joaquin-trailer",
+    "description": "รับบท Joaquin Torres/Falcon เพื่อนและผู้สืบทอด Falcon ของ Sam Wilson."
+  },
+  {
+    "idx": "4",
+    "name": "Carl Lumbly",
+    "movie": "Captain America: Brave New World",
+    "image": "https://example.com/carl-lumbly.jpg",
+    "trailer": "https://www.youtube.com/watch?v=isaiah-trailer",
+    "description": "รับบท Isaiah Bradley อดีต super soldier ที่ถูกทดลองจากรัฐบาล."
+  },
+  {
+    "idx": "5",
+    "name": "Pedro Pascal",
+    "movie": "The Fantastic Four: First Steps",
+    "image": "https://example.com/pedro-pascal.jpg",
+    "trailer": "https://www.youtube.com/embed/18QQWa5MEcs?si=G84U15Dy5evXsBU-",
+    "description": "รับบท Reed Richards / Mister Fantastic ผู้นำของ Fantastic Four."
+  },
+  {
+    "idx": "6",
+    "name": "Vanessa Kirby",
+    "movie": "The Fantastic Four: First Steps",
+    "image": "https://example.com/vanessa-kirby.jpg",
+    "trailer": "https://www.youtube.com/watch?v=sue-storm-trailer",
+    "description": "รับบท Sue Storm / Invisible Woman ผู้สามารถมองไม่เห็นและสร้าง field ป้องกัน."
+  },
+  {
+    "idx": "7",
+    "name": "Ebon Moss‑Bachrach",
+    "movie": "The Fantastic Four: First Steps",
+    "image": "https://example.com/ebon-moss.jpg",
+    "trailer": "https://www.youtube.com/watch?v=ben-grimm-trailer",
+    "description": "รับบท Ben Grimm / The Thing เพื่อน Reed ผู้กลายร่างเป็นร่างหินทรงพลัง."
+  },
+  {
+    "idx": "8",
+    "name": "Joseph Quinn",
+    "movie": "The Fantastic Four: First Steps",
+    "image": "https://example.com/joseph-quinn.jpg",
+    "trailer": "https://www.youtube.com/watch?v=johnny-storm-trailer",
+    "description": "รับบท Johnny Storm / Human Torch ผู้สามารถควบคุมไฟและบินได้."
+  },
+  {
+    "idx": "9",
+    "name": "Ralph Ineson",
+    "movie": "The Fantastic Four: First Steps",
+    "image": "https://example.com/ralph-ineson.jpg",
+    "trailer": "https://www.youtube.com/watch?v=galactus-trailer",
+    "description": "รับบท Galactus วายร้ายโคตรพลังระดับจักรวาล ที่คุกคามโลก."
+  },
+  {
+    "idx": "10",
+    "name": "Florence Pugh",
+    "movie": "Thunderbolts*",
+    "image": "https://example.com/florence-pugh.jpg",
+    "trailer": "https://www.youtube.com/watch?v=thunderbolts-trailer",
+    "description": "หนึ่งในทีม Thunderbolts*, ตัวละครยังไม่เผยชื่อ แต่เป็นสมาชิกสำคัญของทีม."
+  },
+  {
+    "idx": "11",
+    "name": "Sebastian Stan",
+    "movie": "Thunderbolts*",
+    "image": "https://example.com/sebastian-stan.jpg",
+    "trailer": "https://www.youtube.com/watch?v=thunderbolts-trailer",
+    "description": "กลับมารับบท Bucky Barnes ที่มีบท cameo เชื่อมต่อสู่เรื่อง Thunderbolts*."
+  }
+]

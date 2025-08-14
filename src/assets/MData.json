@@ -1,0 +1,82 @@
+[
+  {
+    "idx": "1",
+    "title": "Captain America: Brave New World",
+    "year": 2025,
+    "poster": "https://a.ltrbxd.com/resized/film-poster/7/3/8/2/9/2/738292-captain-america-brave-new-world-0-230-0-345-crop.jpg?v=97dff5b720",
+    "trailer": "https://www.youtube.com/embed/1pHDWnXmK7Y?si=jElHNvMwrfroGQhf",
+    "score": 7.8
+  },
+  {
+    "idx": "2",
+    "title": "The Fantastic Four: First Steps",
+    "year": 2025,
+    "poster": "https://example.com/poster/fantastic-four.jpg",
+    "trailer": "https://www.youtube.com/embed/18QQWa5MEcs?si=G84U15Dy5evXsBU-",
+    "score": 7.5
+  },
+  {
+    "idx": "3",
+    "title": "Superman",
+    "year": 2025,
+    "poster": "https://example.com/poster/superman.jpg",
+    "trailer": "https://www.youtube.com/embed/Ox8ZLF6cGM0?si=c7OwgAMKWJKNIXJ9",
+    "score": 8.0
+  },
+  {
+    "idx": "4",
+    "title": "Thunderbolts*",
+    "year": 2025,
+    "poster": "https://example.com/poster/thunderbolts.jpg",
+    "trailer": "https://www.youtube.com/embed/hUUszE29jS0?si=kkQpiWx4NETxYvPv",
+    "score": 7.0
+  },
+  {
+    "idx": "5",
+    "title": "Dog Man",
+    "year": 2025,
+    "poster": "https://example.com/poster/dog-man.jpg",
+    "trailer": "https://www.youtube.com/embed/QaJbAennB_Q?si=v38MEOcD0DfDkv4V",
+    "score": 8.1
+  },
+  {
+    "idx": "6",
+    "title": "Henry Danger: The Movie",
+    "year": 2025,
+    "poster": "https://example.com/poster/henry-danger.jpg",
+    "trailer": "https://www.youtube.com/embed/Rcc9veq0JgM?si=K2jCj0u9tZBpwTQW",
+    "score": 7.0
+  },
+  {
+    "idx": "7",
+    "title": "Venom: The Last Dance",
+    "year": 2024,
+    "poster": "https://example.com/poster/venom.jpg",
+    "trailer": "https://www.youtube.com/embed/__2bjWbetsA?si=WkCxfR5QUEcYUYbr",
+    "score": 6.5
+  },
+  {
+    "idx": "8",
+    "title": "Ultraman: Rising",
+    "year": 2024,
+    "poster": "https://example.com/poster/ultraman.jpg",
+    "trailer": "https://www.youtube.com/embed/_YGosxAnZ4Q?si=C5dUry7MQ2sC00kG",
+    "score": 7.4
+  },
+  {
+    "idx": "9",
+    "title": "Watchmen Chapter I & II",
+    "year": 2024,
+    "poster": "https://example.com/poster/watchmen.jpg",
+    "trailer": "https://www.youtube.com/embed/VEX3fJMNxwc?si=GmqQcvzzI0Lx3mcg",
+    "score": 8.2
+  },
+  {
+    "idx": "10",
+    "title": "Merry Little Batman",
+    "year": 2023,
+    "poster": "https://example.com/poster/merry-little-batman.jpg",
+    "trailer": "https://www.youtube.com/embed/9PeJn8vca98?si=hyqHX9Db-nQGqVYs",
+    "score": 7.9
+  }
+]
