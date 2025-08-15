@@ -21,8 +21,16 @@ export class Type {
   smooty() {
     this.router.navigate(['list/smooty']);
   }
-logout() {
-  localStorage.removeItem('currentUser');
-  window.location.replace('/login');
-}
+  logout() {
+    localStorage.removeItem('currentUser');
+
+    // ล้าง history และไปหน้า login
+    this.router.navigate(['/login'], { replaceUrl: true });
+
+    // ป้องกันการกดย้อนกลับ
+    history.pushState(null, '', location.href);
+    window.onpopstate = () => {
+      history.go(1);
+    };
+  }
 }

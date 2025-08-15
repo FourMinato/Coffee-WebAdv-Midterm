@@ -18,6 +18,11 @@ export class Cool implements OnInit {
   constructor(private router: Router, private location: Location) { }
 
   ngOnInit(): void {
+    // ถ้าไม่มี currentUser ให้ redirect ไปหน้า login ทันที
+    if (!localStorage.getItem('currentUser')) {
+      window.location.replace('/login');
+      return;
+    }
     // กรองเอาเฉพาะเมนูร้อน TypeNo = 1
     this.CoolCoffee = coffeeData.Coffee.filter(c => c.TypeProduct.TypeNo === 2);
   }
@@ -26,10 +31,19 @@ export class Cool implements OnInit {
     this.location.back();
   }
 
-logout() {
-  localStorage.removeItem('currentUser');
-  window.location.replace('/login');
-}
+
+  logout() {
+    localStorage.removeItem('currentUser');
+
+    // ล้าง history และไปหน้า login
+    this.router.navigate(['/login'], { replaceUrl: true });
+
+    // ป้องกันการกดย้อนกลับ
+    history.pushState(null, '', location.href);
+    window.onpopstate = () => {
+      history.go(1);
+    };
+  }
 
   addToCart(coffee: Coffee) {
     console.log('เพิ่มลงตะกร้า:', coffee);
